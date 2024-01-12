@@ -40,6 +40,11 @@
       </div>
     </li>
   
+    <form method="post" action="{{ route('logout') }}">
+    @csrf
+    <button type="submit" class="btn btn-warning">Logout</button>
+    </form>
+
   </ul>
   
 </nav>
